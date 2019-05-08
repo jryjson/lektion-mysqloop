@@ -1,0 +1,14 @@
+(Om du inte har gjort det i övningen innan)
+
+Skapa en databas som heter customerDB (med utf8_general_ci)
+
+Skapa tabellen customer med SQL:
+
+CREATE TABLE customer(
+	customerId INT NOT NULL AUTO_INCREMENT,
+	customerName VARCHAR(50),
+	customerEmail VARCHAR(50),
+	customerPassword varchar(255),
+	customerDate DATETIME,
+	PRIMARY KEY (customerId)
+);
